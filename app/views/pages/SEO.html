@@ -1,0 +1,771 @@
+
+
+url: yourcompany.com/TrevisoCondos
+
+<HTML>
+<HEAD>
+<TITLE>Treviso Condos as close to the begining as possible and only the first 65-75 letters and include | "Website Brand"</TITLE>
+
+<meta name="description" content="TREVISO CONDOS description">
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+
+<meta name="author" content=""/>
+<meta name="keywords" content="New York real estate, nyc properties"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content=""/>
+<meta property="og:description" content=""/>
+<meta property="og:url" content=""/>
+<meta property="article:published_time" content="2016-03-15T09:04:00-04:00"/>
+<meta property="article:modified_time" content="2016-03-17T13:47:25-04:00"/>
+<meta property="article:section" content=""/>
+<meta property="og:image" content=""/>
+<meta property="og:image:height" content=""/>
+<meta property="og:image:width" content=""/>
+<meta property="og:site_name" content=""/>
+<meta itemprop="headline" content=""/>
+<meta itemprop="description" content=""/>
+<meta itemprop="image" content=""/>
+<meta property="twitter:title" content=""/>
+<meta property="twitter:description" content=""/>
+<meta property="twitter:card" content="summary_large_image"/>
+<meta property="twitter:image" content=""/>
+<meta property="twitter:site" content="@payamahangar"/>
+<meta property="fb:app_id" content=""/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+</HEAD>
+
+<BODY BGCOLOR="FFFFFF">
+
+<CENTER><IMG SRC="clouds.jpg" alt="TREVISO CONDOS" ALIGN="BOTTOM"> </CENTER>
+
+<HR>
+
+<a href="http://somegreatsite.com">Link Name</a>
+
+<H1>Treviso Condos in the Header</H1>
+
+<H2></H2>
+
+<P> Treviso Condos near the top of the page</P>
+
+<a href="mailto:support@yourcompany.com">
+support@yourcompany.com</a>
+
+<P>At least two or three times, including variations, TREVISO CONDOS in the body copy on the page. TREVISO CONDOS Perhaps a few more times if there's a lot of text content. TREVISO CONDOS You may find additional value in using the keyword or variations more than this, but in our experience adding more instances of a term or phrase tends to have little or no impact on rankings. </P>
+
+<P> <B></B>
+
+<BR> 
+
+<B><I></I></B>
+
+<HR>
+
+</BODY>
+
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+<section id="list" class="md-p3">
+
+    <div class="md-flex clearfix"> 
+
+        <div class="main-column col xs-col-12 md-col-8 lg-col-8 my-device-px2 md-px0">
+
+
+
+
+              <div class="row project-header">
+                <div class="col-xs-4 col-md-3">
+                  <a href="/">
+                  <button type="button" class="btn btn-default no-border">Back</button>
+                  </a>
+                </div>
+
+<% link_to(image_tag("back.svg"), :back, :class => 'back_btn') %>
+
+
+                <div class="hidden-xs col-md-2">
+                  <a class="fb-share" href="#" onclick="
+                    window.open(
+                      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('https://codepen.io/'), 
+                      'facebook-share-dialog', 
+                      'width=626,height=436'); 
+                    return false;"><button type="button" class="btn btn-default no-border" id="shareBtn">Share</button>
+                  </a>
+                </div>
+
+                <div class="col-xs-4 col-md-2 map map-btn"> 
+                  <a href="#map">
+                  <button type="button" class="btn btn-info no-border">Map</button>
+                  </a>
+                </div>
+
+                <div class="col-xs-4 col-md-2 photo-btn"> 
+                  <a href="#photos">
+                  <button type="button" class="btn btn-warning no-border">Photos</button>
+                  </a>
+                </div>
+
+                <div class="hidden-xs col-md-3"> 
+
+                      <% unless user_signed_in? %>
+                        <%= link_to new_user_session_path, method: :post, data: { confirm: 'You have to be logged in to add items to your favorites list' } do %>
+                            <button type="button" class="btn btn-danger no-border" style="color:#FFFFFF;">Add to Favorites <span class="glyphicon glyphicon-heart"></span></button>
+                        <% end %>
+                      <% end %>
+
+                      <% if user_signed_in? %>
+
+                        <%- unless current_user.favorite_listings.exists?(id: @listing.id) -%>            
+                        <%= link_to favorite_listings_path(listing_id: @listing), method: :post do %>
+                            <button type="button" class="btn btn-danger no-border" style="color:#FFFFFF;">Add to Favorites <span class="glyphicon glyphicon-heart"></span></button>
+                        <% end %>
+
+
+                       <%- else -%>
+
+                        <%= link_to favorite_listing_path(@listing), method: :delete do %>
+                            <button type="button" class="btn btn-default no-border" style="color:#FF0000;">Remove <span class="glyphicon glyphicon-heart"></span></button>
+                        <% end %>
+
+                      <%- end -%>
+                      
+                      <%- end -%>
+
+                  <!-- <a href="/">
+                  <button type="button" class="btn btn-default no-border" style="color:#FF0000;">Add to Favorites <span class="glyphicon glyphicon-heart"></span></button>
+                  </a> -->
+                </div>
+
+                <div class="col-md-1">
+                    <% link_to 'Back to Search', listings_path %>
+                </div>
+
+                <div class="col-md-9">
+
+                </div>
+              </div>  
+
+
+              <!-- style="margin-left: 0px; margin-right: 0px" -->
+
+
+
+              <div class= "row">
+                  <div class="wrap">
+                    <div class="cell-wrap left">
+                      <table class="left flat-table flat-table-1">
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>1 Bloor</td>
+                          </tr>
+                          <tr>
+                            <td>Address:</td>
+                            <td>1 Bloor street</td>
+                          </tr>
+                          <tr>
+                            <td>Name:</td>
+                            <td>1 Bloor</td>
+                          </tr>
+                          <tr>
+                            <td>Address:</td>
+                            <td>1 Bloor street</td>
+                          </tr>  
+                          <tr>
+                            <td>Address:</td>
+                            <td>1 Bloor street</td>
+                          </tr>            
+                        </tbody>
+                      </table>   
+                    </div> 
+                    
+                    <div class="hidden-xs cell-wrap right">
+                      <table class="right">
+
+                        <tr>
+                           <%= image_tag @listing.image.url(:original), class: "main img-responsive" %>
+                        </tr>
+                      </table>
+                    </div> 
+                  </div>
+
+                  <div class="hidden-sm hidden-md hidden-lg">
+                           <%= image_tag @listing.image.url(:original), class: "main img-responsive" %>
+                  </div>
+              </div>
+
+
+
+
+              <div class="row">
+
+                <table style="height: 100px; margin: 0px; padding: 0px" class="col-xs-6 col-md-3">
+
+                  <tr>
+                    <th style="vertical-align: middle;"><p id="">City</p></th>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: middle;"><p id="">Toronto</p></td>
+                  </tr>
+
+                </table>
+
+
+                <table style="height: 100px; margin: 0px; padding: 0px" class="col-xs-6 col-md-3">
+
+                  <tr>
+                    <th style="vertical-align: middle;"><p id="">Community</p></th>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: middle;"><p id="">Forest Hill</p></td>
+                  </tr>
+
+                </table>
+
+
+                <table style="height: 100px; margin: 0px; padding: 0px" class="col-xs-6 col-md-3">
+
+                  <tr>
+                    <th style="vertical-align: middle;"><p id="">Status</p></th>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: middle;"><p id="">VIP</p></td>
+                  </tr>
+
+                                
+                </table>
+
+                <table style="height: 100px; margin: 0px; padding: 0px" class="col-xs-6 col-md-3">
+
+                  <tr>
+                    <th style="vertical-align: middle;"><p id="">Starting Price</p></th>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: middle;"><p id="">$300K</p></td>
+                  </tr>
+
+                </table>
+
+
+                <table style="height: 100px; margin: 0px; padding: 0px" class="col-xs-6 col-md-3">
+
+                  <tr>
+                    <th style="vertical-align: middle;"><p id="">Occupancy</p></th>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: middle;"><p id="">2018</p></td>
+                  </tr>
+
+                </table>
+
+
+                <table style="height: 100px; margin: 0px; padding: 0px" class="col-xs-6 col-md-3">
+
+                  <tr>
+                    <th style="vertical-align: middle;"><p id="">Floors</p></th>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: middle;"><p id="">45</p></td>
+                  </tr>
+                                
+                </table>
+
+                <table style="height: 100px; margin: 0px; padding: 0px" class="col-xs-6 col-md-3">
+
+                  <tr>
+                    <th style="vertical-align: middle;"><p id="">Units</p></th>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: middle;"><p id="">450</p></td>
+                  </tr>
+
+                                
+                </table>
+
+                <table style="height: 100px; margin: 0px; padding: 0px" class="col-xs-6 col-md-3">
+
+                  <tr>
+                    <th style="vertical-align: middle;"><p id="">Maintenance</p></th>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: middle;"><p id="">$0.50/sqft</p></td>
+                  </tr>
+
+                </table>
+              </div>
+
+
+              <div class="row row-padded">
+
+                <div class="col-xs col-md-12">
+
+
+                      <div class="row">
+                       <!--<a class="padding-30 map map-btn" href="#map-site">Link to Map</a><br/>-->
+                       <p class="padding-30">About <%= @listing.address %>:</p>
+                       <p class="padding-30">Description <%= @listing.description %>:</p>                       
+                       <p class="padding-30">Experience elevation living at The Peak, the newest and most anticipated phase in Emerald City at Don Mills and Sheppard. Situated beside the beautiful, green Parkway Forest Park, The Peak offers outstanding amenities for your recreational and entertainment pursuits. From the party room and private dining, to the pool and sauna, it’s an oasis of convenience and comfort.</p>
+                       <!--<p class="padding-30">Status: <%= @listing.status %></p> -->
+                      </div>
+                      
+                      <div style="float: right; padding-right: 30px">
+                          <a href="#username">
+                              <button type="button" class="btn btn-warning no-border">Request more information</button>
+                          </a>
+                      </div>       
+
+
+
+                </div>  
+       
+              </div>
+
+              <div class="row" id="drawer-photo">
+
+
+                  <% unless @pictures.empty? %>
+
+
+                    <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+
+                        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                          <%= link_to @listing.pictures[0].image.url(:original), :'itemprop' => 'contentUrl', :'data-size' => '1024x768' do %>
+                          <%= image_tag @listing.pictures[0].image.url(:original), :itemprop => 'thumbnail', :alt => 'Image description' %>
+                          <% end %>
+                          <figcaption itemprop="caption description">Image caption 6</figcaption>
+                        </figure>
+
+
+                        <% @pictures.each do |pic| %>
+
+                          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                            <%= link_to pic.image.url(:original), :'itemprop' => 'contentUrl', :'data-size' => '1024x768' do %>
+                            <%= image_tag pic.image.url(:original), :itemprop => 'thumbnail', :alt => 'Image description' %>
+                            <% end %>
+                            <figcaption itemprop="caption description">Image caption 6</figcaption>
+                          </figure>
+                        <% end %>
+                    </div>
+                  <% end %>
+              </div>   
+
+
+              <div id="drawer-map" style="width: 100%; overflow: hidden; height: 500px;">
+                <div class="overlay" onClick="style.pointerEvents='none'"></div>
+                <iframe width="100%" height="600px" scrolling="no" frameborder="0" style="border:0; margin-top: -150px;" src="https://www.google.com/maps/embed/v1/place?q=40.7127837,-74.0059413&amp;key=AIzaSyAmMeyHxtlaZeTKBmm2a9_zJPyiojGK7i8"></iframe>  
+              </div>
+
+
+
+
+              <div class="jumbotron">
+                <h1>Happy searching!</h1>
+                <br/>
+                <h2>Here is more info:</h2>              
+                <br/>
+                     <p>
+                       <%= link_to "Download Floorplans", new_user_session_path, class: "btn btn-default btn-lg", style: "margin-bottom: 10px;" %>
+                       <%= link_to "Request Price List", new_user_registration_path, class: "btn btn-primary btn-lg", style: "margin-bottom: 10px;" %>
+                       <% link_to "Commercial", new_user_session_path, class: "btn btn-default btn-lg" %>
+                       <% link_to "Investment", new_user_registration_path, class: "btn btn-default btn-lg" %>
+                       <% link_to "Mortgages", new_user_session_path, class: "btn btn-default btn-lg" %>
+
+                     </p>    
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <div class="row">  
+
+              </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="side-column col xs-col-12 md-col-4 lg-col-4 md-pl3 xs-relative">
+
+
+          <section id="sticky">
+              <nav class="nav-submit my-device-flex my-device-flex-align-center my-device-px1 fillwhite xs-fixed xs-b0 xs-l0 xs-r0 text-5 xs-shadow-top xs-z4 md-hide">
+                  <div class="nav-action-links my-device-flex-grow-1">
+
+
+                      <% unless user_signed_in? %>
+                        <%= link_to new_user_session_path, method: :post, data: { confirm: 'You have to be logged in to add items to your favorites list' } do %>
+                            <button type="button" class="btn btn-default no-border" style="color:#FF0000;">Add to Favorites <span class="glyphicon glyphicon-heart"></span></button>
+                        <% end %>
+                      <% end %>
+
+                      <% if user_signed_in? %>
+
+                        <%- unless current_user.favorite_listings.exists?(id: @listing.id) -%>            
+                          <%= link_to favorite_listings_path(listing_id: @listing), method: :post do %>
+                              <button type="button" class="btn btn-default no-border" style="color:#FF0000;">Add to Favorites <span class="glyphicon glyphicon-heart"></span></button>
+                          <% end %>
+
+                        <%- else -%>
+
+                          <%= link_to favorite_listing_path(@listing), method: :delete do %>
+                              <button type="button" class="btn btn-default no-border" style="color:#FF0000;">Remove <span class="glyphicon glyphicon-heart"></span></button>
+                          <% end %>
+
+                        <%- end -%>                      
+                      <%- end -%>
+
+
+
+
+
+                      <!-- <button class="link link--small link--menu link--stacked link--save-home active" data-favorite="4312500">
+                          <i class="icon icon-favorite-outline"></i>
+                      </button> -->
+                      <!-- <button class="link link--small link--menu link--stacked text-6 drawer-share-toggle">
+                          <span class="glyphicon glyphicon-share"></span>
+                      </button> -->
+                  </div>
+                  <div class="nav-submit-cta my-device-flex-grow-1 my-device-flex my-device-flex-justify-end">
+                      <a href="#username" class="link link--small link--action my-device-flex-grow-1">
+                      Email <span class="glyphicon glyphicon-envelope"></span>
+                      </a>
+                  </div>
+              </nav>
+          </section>
+
+
+          <div class="list-lead list-lead-mt my-device-border-bottom md-border md-my-device3 fillwhite stick" id="contact_us">
+
+
+            <div class="container">
+              <div id="enter">
+                <div class="logo-image88">
+                  <img src="" alt="Logo" title="Logo">
+                </div>
+                <h1>Title   </h1>
+                <p>Description</p>
+
+
+
+                <% unless user_signed_in? %>
+
+                    <%= form_for @message, url: icontact_path do |message_form| %>
+
+                      <fieldset>
+                        <%= message_form.hidden_field :listing_id, value: @listing.id %>
+
+                        <div class="form-group input-group88">
+                          <%= message_form.text_field :name, placeholder: "Name", :class => "input-field88", :id => "username" %>
+                        </div>
+                        
+                        <div class="form-group input-group88">
+                          <%= message_form.email_field :email, placeholder: "Email", :class => "input-field88", :style => "background-color: #f2d846;" %>
+                        </div>
+
+                        <div class="form-group input-group88">
+                          <%= message_form.text_field :phone, placeholder: "Phone", :class => "input-field88" %>
+                        </div>
+
+                        <div class="form-group input-group88">
+                          <%= message_form.text_area :content, placeholder: "Message", :class => "input-field88", :style => "background-color: #f2d846; height: 100px;" %>
+                        </div>
+
+                        <div class="form-group input-group88">
+                          <%= message_form.submit "Send", :class => "btn btn-ok input-field88" %>
+                        </div>                     
+                      </fieldset>
+
+                    <% end %>
+
+                <% end %>
+
+
+
+
+                <% if user_signed_in? %>
+
+
+                    <%= form_for @message, url: icontact_path do |message_form| %>
+
+                      <fieldset>
+                        <%= message_form.hidden_field :listing_id, value: @listing.id %>
+
+                        <div class="form-group input-group88">
+                          <%= message_form.text_field :name, placeholder: "Name", :value => current_user.name, :id => "username", class: "input-field88" %>
+                        </div>
+                        
+                        <div class="form-group input-group88">
+                          <%= message_form.email_field :email, placeholder: "Email", :value => current_user.email,  class: "input-field88", :style => "background-color: #f2d846;" %>
+                        </div>
+
+                        <div class="form-group input-group88">
+                          <%= message_form.text_field :phone, placeholder: "Phone", :value => current_user.phone,  class: "input-field88" %>
+                        </div>
+
+                        <div class="form-group input-group88">
+                          <%= message_form.text_area :content, placeholder: "Message", :value => "Call me today",  class: "input-field88", :style => "background-color: #f2d846; height: 100px; padding-top: 20px;" %>
+                        </div>
+
+                        <div class="form-group input-group88">
+                          <%= message_form.submit "Call me", :class => "btn btn-ok input-field88" %>
+                        </div>                     
+                      </fieldset>
+
+                    <% end %>
+                       <!-- :value => current_user.email, -->
+
+                <% end %>
+
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+</section>
+
+
+
+<section>
+              <div class="row">
+
+                            <!--<div class="overlay" onClick="style.pointerEvents='none'"></div>
+                            <iframe width="100%" height="480px" scrolling="no" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=40.7127837,-74.0059413&amp;key=AIzaSyAmMeyHxtlaZeTKBmm2a9_zJPyiojGK7i8"></iframe> --> 
+                            <!--  style="pointer-events:none;" -->
+                            <!--<img width="840" class="img-responsive" src="https://maps.googleapis.com/maps/api/staticmap?center=Albany,+NY&zoom=13&scale=false&size=600x480&maptype=roadmap&key=AIzaSyAmMeyHxtlaZeTKBmm2a9_zJPyiojGK7i8&format=png&visual_refresh=true" alt="Google Map of Albany, NY">-->
+
+                  <% @otherlistings = Listing.all %>
+
+                  <div id="listings" class="transitions-enabled">
+                    <% @otherlistings.each do |listing| %>
+                      <!--<div class="col-xs-12 col-md-4">-->
+                      <div class="box panel panel-default">
+
+
+                                     <!-- <div class="item"><a href="#"><span class="notify-badge glyphicon glyphicon-heart"></span><%= link_to image_tag(listing.image.url(:original)), listing %></a></div> -->   
+
+
+
+                          <% unless user_signed_in? %>
+                                <%= link_to new_user_session_path, method: :post, data: { confirm: 'You have to be logged in to add items to your favorites list' } do %>
+                                        <div class="item"><i class="notify-badge icon-custom1-heart"></i><span class="vip-badge"><button type="button" class="btn btn-xs btn-danger no-border uppercase" style="width: 40px;"><%= listing.status %></button><%= link_to image_tag(listing.image.url(:medium)), listing %></div>
+                                <% end %>
+
+                          <% end %>
+
+                          <% if user_signed_in? %>
+
+                                <%- unless current_user.favorite_listings.exists?(id: listing.id) -%>            
+                                  <%= link_to favorite_listings_path(listing_id: listing), method: :post do %>
+                                    <div class="item"><i class="notify-badge icon-custom1-heart"></i><span class="vip-badge"><button type="button" class="btn btn-xs btn-danger no-border uppercase" style="width: 40px;"><%= listing.status %></button></span><%= link_to image_tag(listing.image.url(:medium)), listing %></div>
+                                  <% end %>                                  
+
+                                <%- else -%>
+
+                                  <%= link_to favorite_listing_path(listing), method: :delete do %>
+                                    <div class="item"><i class="notify-badge icon-custom2-heart"></i><span class="vip-badge"><button type="button" class="btn btn-xs btn-danger no-border uppercase" style="width: 40px;"><%= listing.status %></button><%= link_to image_tag(listing.image.url(:medium)), listing %></div>
+                                  <% end %>
+
+                                <%- end -%>
+          
+                          <% end %>
+
+
+
+
+
+
+
+                        <div class="panel-body">
+
+                          <!--<div class="row">  
+                            <div class="col-xs-10 col-md-10"> 
+                                <%= listing.image_file_name %><br/>
+                            </div>
+                            <div class="col-xs-2 col-md-2"> 
+                                <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>
+                            </div>                            
+                          </div>-->
+
+
+
+                          <% listing.image_file_name %>
+                          <% listing.status %>
+                          <%= listing.address %><br/>
+
+                          <%= listing.description %> | <%= listing.user.email if listing.user %>
+                          <strong><% listing.user.name if listing.user %></strong> | 
+                          <strong><% listing.user.phone if listing.user %></strong> <br/>
+                          <%= link_to 'Show', listing %> | <strong><%= listing.image_file_size %></strong> sqft
+
+
+
+                          <% unless user_signed_in? %>
+                            <%= link_to new_user_session_path, method: :post, data: { confirm: 'You have to be logged in to add items to your favorites list' } do %>
+                                <button type="button" class="btn btn-default no-border"><span class="glyphicon glyphicon-heart-empty"></span></button>
+                            <% end %>
+                          <% end %>
+
+                          <% if user_signed_in? %>
+
+                              <p>
+                                <%- unless current_user.favorite_listings.exists?(id: listing.id) -%>            
+                                  <%= link_to favorite_listings_path(listing_id: listing), method: :post do %>
+                                      <button type="button" class="btn btn-default no-border"><span class="glyphicon glyphicon-heart-empty"></span></button>
+                                  <% end %>
+
+                                <%- else -%>
+
+                                  <%= link_to favorite_listing_path(listing), method: :delete do %>
+                                      <button type="button" class="btn btn-default no-border"><span class="glyphicon glyphicon-heart"></span></button>
+                                  <% end %>
+
+                                <%- end -%>
+                              </p>
+
+
+                              <div class="actions">
+                                <%= link_to edit_listing_path(listing) do %>
+                                  <span class="glyphicon glyphicon-edit"></span>
+                                  Edit
+                                <% end %>
+                                <%= link_to listing, method: :delete, data: { confirm: 'Are you sure?' } do %>
+                                  <span class="glyphicon glyphicon-trash"></span>
+                                  Delete
+                                <% end %>
+                              </div>            
+                          <% end %>
+
+                        </div>
+                      </div>
+                      <!--</div>-->
+                    <% end %>
+                  </div>
+
+              </div>
+
+</section>
+
+
+
+<%= render 'layouts/photoswipehtml' %>
+
+<%= render 'layouts/photoswipejs' %>
+
+
+
+
+
+
+
+
